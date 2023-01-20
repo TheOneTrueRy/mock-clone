@@ -1,0 +1,129 @@
+/* SECTION Elements */
+
+body{
+  background-color: #EAEAEA;
+}
+
+/* SECTION Classes */
+
+.bg-green{
+  background-color: #07AB80;
+}
+
+.green{
+  color: #07AB80;
+}
+
+.subtle{
+  color: rgba(255, 255, 255, 0.736);
+  align-self: flex-start;
+  margin-bottom: 0.5em;
+}
+
+.bg-img{
+  background-size: cover;
+  background-image: url(https://d1fs8ljxwyzba6.cloudfront.net/assets/article/2020/08/31/halo-infinite-monster-energy-drink-partnership-announced-2020_feature.jpg);
+  background-position: center;
+}
+
+.title-card{
+  background-color: white;
+  height: 100%;
+  width: 80%;
+  box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.344);
+  margin-bottom: 2em;
+
+}
+
+.text-small{
+  font-size: small;
+}
+
+.fcb{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.glass-card{
+  height: 93px;
+  width: 100%px;
+  border-left: 8px solid #2ba182;
+  margin-top: 108px;
+  margin-left: 30px;
+  text-shadow: 0 0 6px black;
+  padding-left: 30px;
+}
+
+.mb6{
+  margin-bottom: 6px;
+}
+
+.nomb{
+  margin-bottom: 0px;
+}
+
+.w80{
+  max-width: 80%;
+}
+
+.spill-card{
+  background-color: white;
+  height: 270px;
+  width: 80%;
+  transform: translateY(50px);
+}
+
+/* SECTION IDs */
+
+#fname{
+  width: 86%;
+  margin-bottom: 18px;
+}
+
+#fmail{
+  width: 86%;
+  margin-bottom: 18px;
+}
+
+#fphone{
+  width: 47%;
+  margin-right: 4px;
+  margin-bottom: 18px;
+
+}
+
+#fext{
+  width: 37%;
+  margin-left: 4px;
+  margin-bottom: 18px;
+}
+
+#fmsg{
+  width: 86%;
+  height: 200px;
+}
+
+#fcb{
+  accent-color: #5cf1ca;
+  margin-left: 40px;
+  margin-top: 19px;
+
+}
+
+#fsubmit{
+  border: 0;
+  background-color: #49f2c515;
+  color: #07AB80;
+  width: 30%;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* SECTION Media Queries */
+
+@media (max-width: 767px) {
+  .glass-card{
+    display: none;
+  }
+}
