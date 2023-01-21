@@ -92,8 +92,7 @@ body{
 }
 
 .more{
-  display: flex;
-  justify-content: flex-end;
+  margin-left: 80%;
 }
 
 /* SECTION IDs */
@@ -143,13 +142,34 @@ body{
   margin-top: 10px;
 }
 
+#more{
+  width: 80px;
+  border: 0;
+  color: white;
+  background-color: #375539;
+}
+
 /* SECTION Media Queries */
 
 @media (max-width: 767px) {
   .glass-card{
     display: none;
   }
+  .spill-card{
+    transform: translateY(0px);
+    margin-left: 5em;
+    margin-top: 2em;
+  }
+  
+  #chief{
+    margin-top: 2em;
+  }
+  
+  #chief-text{
+    margin-top: 0;
+  }
 }
+
 
 @media (min-width: 768px) {
 

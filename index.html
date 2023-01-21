@@ -59,12 +59,12 @@
 
 <div class="container-fluid bg-green">
   <div class="row">
-    <div class="col-5 d-flex flex-column text-light px-5 pt-5">
+    <div class="order-2 order-md-1 col-12 col-md-5 d-flex flex-column text-light px-5 pt-5">
       <p class="fs-4 nomb">Lorem, ipsum dolor.</p>
       <p class="fs-4 mb6">Lorem, ipsum.</p>
       <p class="text-small w80">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut distinctio, incidunt eos tempora quaerat fuga laboriosam obcaecati saepe cum, laudantium culpa! Sunt, omnis soluta.</p>
     </div>
-    <div class="col-12 col-md-7">
+    <div class="order-1 order-md-2 col-12 col-md-7">
       <div class="row">
         <div class="spill-card d-flex flex-wrap px-4">
         <div class="col-1 d-flex flex-column green">
@@ -89,16 +89,16 @@
 
 <div class="container-fluid chief-box">
   <div class="row">
-    <div class="col-3 d-flex">
-      <img src="https://vignette.wikia.nocookie.net/vsbattles/images/a/a6/Halo_3_Master_Chief_(Render).jpg.png/revision/latest/scale-to-width-down/400?cb=20180207080720" alt="Master Chief" id="chief" class="mt-4 img-fluid mx-3">
+    <div id="chief" class="col-12 col-md-3 d-flex">
+      <img src="https://vignette.wikia.nocookie.net/vsbattles/images/a/a6/Halo_3_Master_Chief_(Render).jpg.png/revision/latest/scale-to-width-down/400?cb=20180207080720" alt="Master Chief" class="my-4 img-fluid mx-3">
     </div>
-    <div class="col-9 d-flex flex-wrap mt-10">
+    <div id="chief-text" class="col-12 col-md-9 d-flex flex-wrap mt-10">
       <i class="mdi mdi-shield green text-big"></i>
       <p class="text-big mx-5 nomb">Lorem ipsum dolor sit.</p>
       <p class="text-big"> Lorem ipsum dolor sit amet.</p>
       <p class="text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim ratione amet obcaecati officiis dolorem velit officia voluptates, veritatis assumenda nostrum. Odit eos repudiandae molestiae. Quisquam corrupti laborum nesciunt rem ab! Reiciendis ratione dolore accusantium, voluptatum quae architecto natus fugiat harum dicta veniam, omnis, doloremque vel fuga accusamus autem dolores?</p>
-      <div class="more">
-        <button>More</button>
+      <div class="more mb-4">
+        <button id="more" onclick="scrollMore()">More</button>
       </div>
     </div>
   </div>
