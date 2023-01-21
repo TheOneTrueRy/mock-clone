@@ -6,6 +6,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/MaterialDesign-Webfont/7.0.96/css/materialdesignicons.min.css" integrity="sha512-fXnjLwoVZ01NUqS/7G5kAnhXNXat6v7e3M9PhoMHOTARUMCaf5qNO84r5x9AFf5HDzm3rEZD8sb/n6dZ19SzFA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Mock: Cloned!</title>
 </head>
@@ -15,8 +18,8 @@
 <div class="container-fluid">
   <div class="row">
     <div class="col d-flex bg-green align-items-center">
-      <i class="mdi mdi-waveform text-light fs-1 px-1"></i>
-      <p class="text-light my-2 fs-4">LOREM IPSUM</p>
+      <i class="mdi mdi-star text-light fs-1 px-1"></i>
+      <p class="text-light my-2 mt-3 fs-3 head-text">UNSC TRAINING ACADEMY</p>
     </div>
   </div>
 </div>
@@ -28,9 +31,9 @@
 <div class="container-fluid bg-img">
   <div class="row">
     <div class="col-12 col-md-6 align-items-center d-flex flex-column">
-      <p class="subtle pt-4 px-5 text-small">SUBTLE HEADING</p>
-      <div class="title-card">
-        <p class="green text-small px-4 pt-3"> LESS SUBTLE HEADING</p>
+      <p class="subtle pt-4 px-5 text-small">Application Form</p>
+      <div class="title-card mx-5">
+        <p class="green px-4 pt-3">APPLICATION FORM</p>
         <form class="justify-content-center d-flex flex-wrap">
           <input type="text" id="fname" placeholder="NAME">
           <input type="text" id="fmail" placeholder="EMAIL">
@@ -40,16 +43,16 @@
         </form>
         <form class="">
           <div class="d-flex fcb">
-            <input class="mx-2" type="checkbox" name="fcb" id="fcb">
-            <label for="fcb" class="pt-3 text-small">by checking this box I agree to the lorem ipsum bingus</label>
+            <input class="mt-4" type="checkbox" name="fcb" id="fcb">
+            <label for="fcb" class="pt-4 text-small ">by checking this box I agree to the lorem ipsum bingus</label>
           </div>
           <input type="submit" value="Submit" id="fsubmit">
         </form>
       </div>
     </div>
     <div class="col-5 offset-1 mt-20">
-      <div class="glass-card">
-        <p class="fs-3 text-light mb6"> TEXT OVER AN IMAGE</p>
+      <div class="glass-card d-flex flex-column justify-content-center">
+        <p class="fs-1 text-light nomb head-text">JOIN THE CHIEF</p>
         <p class="text-small subtle mb6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi fuga, distinctio molestias numquam deleniti quidem nisi illo eligendi nesciunt! Magnam.</p>
       </div>
     </div>
@@ -93,14 +96,14 @@
 <div class="container-fluid chief-box">
   <div class="row">
     <div id="chief" class="col-12 col-md-4 d-flex g-0">
-      <video autoplay muted class="">
+      <video autoplay muted loop>
         <source src="Halo-Video.mp4" type="video/mp4">
       </video>
     </div>
     <div id="chief-text" class="col-12 col-md-8 d-flex flex-wrap mt-5">
       <i class="mdi mdi-shield green text-big"></i>
-      <p class="text-big mx-3 nomb">Lorem ipsum dolor.</p>
-      <p class="text-big"> Lorem ipsum dolor sit.</p>
+      <p class="text-big mx-3 nomb">Join the UNSC.</p>
+      <p class="text-big">Train to become a Spartan.</p>
       <p class="text-small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam enim ratione amet obcaecati officiis dolorem velit officia voluptates, veritatis assumenda nostrum. Odit eos repudiandae molestiae. Quisquam corrupti laborum nesciunt rem ab! Reiciendis ratione dolore accusantium, voluptatum quae architecto natus fugiat harum dicta veniam, omnis, doloremque vel fuga accusamus autem dolores?</p>
       <div class="more mb-4">
         <button id="more" onclick="scrollMore()">More</button>
@@ -114,7 +117,7 @@
   <div id="reviews" class="row justify-content-center d-flex align-items-center">
     <div class="col-12 col-md-4 order-2 order-md-1 d-flex justify-content-center">
       <div class="chief-box review text-center my-6 py-2 flex-wrap justify-content-center">
-        <p class="text-small nomb mt-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi in sit eos ea libero accusamus ipsa, quaerat ab ipsam porro enim."</p>
+        <p class="text-small nomb mt-4"><i class="mdi mdi-format-quote-open fs-4"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi in sit eos ea libero accusamus ipsa, quaerat ab ipsam porro enim.</p>
         <div>
           <p class="green nomb">-</p>
           <p class="green">Sergeant Johnson</p>
@@ -126,7 +129,7 @@
         <i class="mdi mdi-star-circle green fs-1 mx-1"></i>
         <i class="mdi mdi-star-circle green fs-1 mx-1"></i>
         <i class="mdi mdi-star-circle green fs-1 mx-1"></i>
-        <p class="text-small mt-2">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum aut error sunt suscipit? Ab reprehenderit exercitationem itaque ad assumenda."</p>
+        <p class="text-small mt-2"><i class="mdi mdi-format-quote-open fs-4"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eum aut error sunt suscipit? Ab reprehenderit exercitationem itaque ad assumenda.</p>
         <div class="flex-column">
           <p class="green nomb">-</p>
           <p class="green">Party Fowler</p>
@@ -135,7 +138,7 @@
     </div>
     <div class="col-12 col-md-4 order-3 d-flex justify-content-center">
       <div class="chief-box review text-center my-6 py-2 flex-wrap justify-content-center">
-        <p class="text-small nomb mt-4">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim repudiandae voluptatibus minus debitis quis porro, sapiente iste fuga dolor!"</p>
+        <p class="text-small nomb mt-4"><i class="mdi mdi-format-quote-open fs-4"></i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim repudiandae voluptatibus minus debitis quis porro, sapiente iste fuga dolor!</p>
         <div class="flex-column">
           <p class="green nomb">-</p>
           <p class="green">TheOneTrueRy</p>
