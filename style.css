@@ -104,6 +104,11 @@ body{
   height: auto;
 }
 
+.my-6{
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
 /* SECTION IDs */
 
 #fname{
@@ -172,10 +177,20 @@ body{
   
   #chief{
     margin-top: 2em;
+    justify-content: center;
   }
   
   #chief-text{
     margin-top: 0;
+  }
+
+  #reviews{
+    flex-direction: column;
+  }
+
+  .review{
+    margin-top: 3em;
+    margin-bottom: 3em;
   }
 }
 
