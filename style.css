@@ -69,9 +69,31 @@ body{
 
 .spill-card{
   background-color: white;
-  height: 270px;
-  width: 80%;
+  height: auto;
+  width: 70%;
   transform: translateY(50px);
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.233);
+}
+
+.chief-box{
+  background-color: white;
+}
+
+.text-big{
+  font-size: 5vw;
+}
+
+.mt-10{
+  margin-top: 10em;
+}
+
+.spb{
+  justify-content: space-around;
+}
+
+.more{
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* SECTION IDs */
