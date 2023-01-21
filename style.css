@@ -7,7 +7,7 @@ body{
 /* SECTION Classes */
 
 .bg-green{
-  background-color: #07AB80;
+  background-color: #375539;
 }
 
 .green{
@@ -126,4 +126,8 @@ body{
   .glass-card{
     display: none;
   }
+}
+
+@media (min-width: 768px) {
+
 }
