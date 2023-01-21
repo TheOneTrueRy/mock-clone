@@ -80,7 +80,7 @@ body{
 }
 
 .text-big{
-  font-size: 5vw;
+  font-size: 4em;
 }
 
 .mt-10{
@@ -97,6 +97,11 @@ body{
 
 .mt-20{
   margin-top: 20em;
+}
+
+.review{
+  width: 80%;
+  height: auto;
 }
 
 /* SECTION IDs */
