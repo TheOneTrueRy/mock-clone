@@ -7,11 +7,12 @@ body{
 /* SECTION Classes */
 
 .bg-green{
-  background-color: #375539;
+  background: rgb(54,80,58);
+  background: linear-gradient(90deg, rgba(54,80,58,1) 0%, rgba(89,92,68,1) 83%, rgba(167,151,99,1) 96%, rgba(221,193,120,1) 100%);
 }
 
 .green{
-  color: #07AB80;
+  color: #375539;
 }
 
 .subtle{
@@ -47,7 +48,7 @@ body{
 .glass-card{
   height: 93px;
   width: 100%px;
-  border-left: 8px solid #2ba182;
+  border-left: 8px solid #375539;
   margin-top: 108px;
   margin-left: 30px;
   text-shadow: 0 0 6px black;
@@ -104,7 +105,7 @@ body{
 }
 
 #fcb{
-  accent-color: #5cf1ca;
+  accent-color: #375539;
   margin-left: 40px;
   margin-top: 19px;
 
@@ -113,7 +114,7 @@ body{
 #fsubmit{
   border: 0;
   background-color: #49f2c515;
-  color: #07AB80;
+  color: #375539;
   width: 30%;
   margin-left: 30px;
   margin-bottom: 20px;
