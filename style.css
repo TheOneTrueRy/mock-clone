@@ -4,6 +4,12 @@ body{
   background-color: #EAEAEA;
 }
 
+video{
+  /* min-height: 100%; */
+  width: 100%;
+  object-fit: fill;
+}
+
 /* SECTION Classes */
 
 .bg-green{
@@ -80,7 +86,7 @@ body{
 }
 
 .text-big{
-  font-size: 4em;
+  font-size: 5vw;
 }
 
 .mt-10{
@@ -173,11 +179,6 @@ body{
     transform: translateY(0px);
     margin-left: 5em;
     margin-top: 2em;
-  }
-  
-  #chief{
-    margin-top: 2em;
-    justify-content: center;
   }
   
   #chief-text{
