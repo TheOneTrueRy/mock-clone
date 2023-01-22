@@ -105,6 +105,13 @@ video{
 .review{
   width: 80%;
   height: auto;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.308);
+  transition: 0.6s;
+}
+
+.review:hover{
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.705);
+  transform: scale(1.1);
 }
 
 .my-6{
@@ -154,12 +161,17 @@ video{
 
 #fsubmit{
   border: 0;
-  background-color: #49f2c515;
-  color: #375539;
+  background-color: #375539;
+  color: white;
   width: 30%;
   margin-left: 30px;
   margin-bottom: 20px;
   margin-top: 10px;
+  transition: 0.5s;
+}
+
+#fsubmit:hover{
+  background-color: #19271a;
 }
 
 #more{
@@ -167,11 +179,12 @@ video{
   border: 0;
   color: white;
   background-color: #375539;
+  transition: 0.5s;
 }
 
 #more:hover{
   background-color: #19271a;
-  transition: 0.5s;
+  transform: scale(1.1);
 }
 
 #chief-text{
