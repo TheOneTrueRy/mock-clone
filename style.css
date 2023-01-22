@@ -52,7 +52,7 @@ video{
   max-width: 100%;
   border-left: 8px solid #375539;
   margin-top: 108px;
-  margin-left: 30px;
+  margin-right: 30px;
   text-shadow: 0 0 6px black;
   padding-left: 30px;
   display: flex;
@@ -129,15 +129,15 @@ video{
 }
 
 #fphone{
-  width: 47%;
-  margin-right: 4px;
+  width: 48%;
+  margin-right: 3px;
   margin-bottom: 18px;
 
 }
 
 #fext{
   width: 37%;
-  margin-left: 4px;
+  margin-left: 3px;
   margin-bottom: 18px;
 }
 
